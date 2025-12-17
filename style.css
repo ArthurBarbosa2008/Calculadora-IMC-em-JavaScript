@@ -79,3 +79,15 @@ button:hover {
         right: 0;
     }
 }
+
+@media (max-width: 514px) {
+    form {
+        width: 50%;
+    }
+}
+
+@media (max-width: 814px) {
+    form {
+        width: 35%;
+    }
+}
