@@ -6,7 +6,7 @@ let analise = ""
 function calcular(){
     if (peso.value <= 0 || altura.value <= 0) {
         analise = "Valores inválidos"
-        resultado.innerHTML = analise
+        resultado.textContent = analise
     } else {
         let total = Number(peso.value)/(Number(altura.value) ** 2)
 
@@ -19,7 +19,7 @@ function calcular(){
         } else if (total >= 30) {
             analise = "(Obesidade)"
         } 
-        resultado.innerHTML = total.toFixed(2) + " " + analise
+        resultado.textContent = total.toFixed(2) + " " + analise
     }
 
 }

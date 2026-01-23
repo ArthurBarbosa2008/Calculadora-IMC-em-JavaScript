@@ -16,8 +16,8 @@ section {
 
 h1 {
     position: relative;
-    padding: 10px;
     border-radius: 10px;
+    margin: 10px 0;
     color: rgb(59, 59, 59);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 10;
@@ -30,7 +30,7 @@ form {
     justify-items: center;
     text-align: center;
     padding: 20px;
-    width: 20%;
+    width: 250px;
     border-radius: 10px;
     box-shadow: 10px 10px 10px 1px rgb(155, 155, 155);
     color: rgb(59, 59, 59);
@@ -80,14 +80,8 @@ button:hover {
     }
 }
 
-@media (max-width: 514px) {
+@media (max-width: 415px) {
     form {
-        width: 50%;
-    }
-}
-
-@media (max-width: 814px) {
-    form {
-        width: 35%;
+        width: 200px;
     }
 }
