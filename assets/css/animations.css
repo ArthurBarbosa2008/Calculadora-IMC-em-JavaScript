@@ -1,0 +1,19 @@
+@keyframes esmaecer {
+    0% {
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 100%;
+    }
+}
+
+@keyframes subir {
+    0% {
+        top: 10px;
+    }
+
+    100% {
+        top: 0px;
+    }
+}

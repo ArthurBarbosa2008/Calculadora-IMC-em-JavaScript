@@ -1,0 +1,47 @@
+main {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+
+    width: 400px;
+    min-height: 200px;
+    border-radius: 20px;
+
+    backdrop-filter: blur(15px);
+    border: solid 1px white;
+
+    color: white;
+
+    animation: esmaecer 1s, subir 1s;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    margin: 40px 0 20px;
+    padding: 15px;
+
+    background-color: white;
+    color: #12454d;
+    font-family: "League Spartan", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+
+    border: none;
+    border-radius: 30px;
+}
+
+button:hover {
+    background-color: rgb(156, 156, 156);
+}
+
+#result {
+    margin: 20px 0;
+    font-family: "Arimo", sans-serif;
+}

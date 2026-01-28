@@ -1,37 +1,37 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="icon.png">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="assets/images/icon.png">
     <title>Calculadora de IMC</title>
 </head>
 <body>
-    <section>
-        <h1>Calcule seu IMC agora:</h1>
+    <main>
         <form>
-            <br>
+            <h1>CALCULE SEU IMC</h1>
+
             <div>
-                <label> Peso (Kg) <br>
-                    <input type="number" id="peso" step="0.1">
+                <label>
+                    Peso (KG) <br>
+                    <input type="number" id="peso" min="1" step="0.1">
                 </label>
             </div>
+
             <div>
-                <label> Altura (M) <br>
-                    <input type="number" id="altura" step="0.01">
+                <label>
+                    Altura (M) <br>
+                    <input type="number" id="altura" min="1" step="0.01">
                 </label>
             </div>
-            <br>
-            <div>
-                <button type="button" onclick="calcular()">Calcular</button>
-            </div>
-            <br><br>
-            <div>
-                <p id="resultado"></p> 
-            </div>
-        </form> 
-    </section>  
-    <script src="script.js"></script>
+
+            <button type="button" onclick="calcular()">Calcular</button>
+
+        </form>
+
+        <div id="result"></div>
+    </main>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
